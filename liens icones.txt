@@ -1,0 +1,20 @@
+Icones font awesome
+
+Play : <i class="fa-solid fa-play"></i>
+
+Pause : <i class="fa-solid fa-pause"></i>
+
+Previous : <i class="fa-solid fa-backward"></i>
+
+Next : <i class="fa-solid fa-forward"></i>
+
+Shuffle : <i class="fa-solid fa-shuffle"></i>
+
+
+
+
+
+Arrows :
+Right : <i class="fa-solid fa-arrow-right"></i>
+
+Down : <i class="fa-solid fa-arrow-down"></i>

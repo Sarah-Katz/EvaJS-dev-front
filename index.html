@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="utf-8">
     <title>JavaScript</title>
+    <script src="https://kit.fontawesome.com/5fcd5bd497.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <header>
+        <h1>Sliders (oui j'ai la réf)</h1>
+        <nav class="toolbar"><a href="" id=toolbar-toggle><i id="icon" class="fa-solid fa-arrow-right"></i> barre
+                d'outils</a>
+            <ul id="toolbar-buttons">
+                <li>
+                    <button id="slider-previous"><i class="fa-solid fa-backward"></i></button>
+                </li>
+                <li>
+                    <button id="slider-toggle"><i class="fa-solid fa-play"></i></button>
+                </li>
+                <li>
+                    <button id="slider-next"><i class="fa-solid fa-forward"></i></button>
+                </li>
+                <li>
+                    <button id="slider-random"><i class="fa-solid fa-shuffle"></i></button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <figure id="slider" class="slider">
+        <img src="" alt="">
+        <ul id="selectors">
+            <li id="sel1"></li>
+            <li id="sel2"></li>
+            <li id="sel3"></li>
+            <li id="sel4"></li>
+            <li id="sel5"></li>
+            <li id="sel6"></li>
+        </ul>
+        <figcaption></figcaption>
+    </figure>
+
+
+
+
+    <script src="js/slider.js"></script>
 </body>
+
 </html>
